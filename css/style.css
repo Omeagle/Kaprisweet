@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: rgb(255,255,255,0.2);
+}
+
+
+.carousel .carousel-inner .carousel-item .carousel-caption {   
+   color: rgb(0, 0, 0);  
+}
+
+.separador2{
+    background-color: rgb(146, 185, 180);
+    height: 3vh;
+}
+
+.separador{
+    background-color: rgb(226, 170, 188);
+    height: 3vh;
+}
+
+.Servicios{
+    padding-top: 3em;
+    padding-bottom: 3em;   
+    
+}
+    
+.Servicios h3{
+    text-align: center;    
+    margin-bottom: 1em;
+}
+
+
+.divisor{
+    display: flex;    
+    width: 600px;
+    max-width: 100%;
+    margin: auto;
+    padding-bottom: 3em; 
+}
+
+.Servicios .container .row .col .media{
+    margin-bottom: 2em;    
+}
+
+.Servicios .container .row .col .media img{
+    width: 100px;
+    height: 100px;
+
+}
+
+.Servicios .container .row .col .media .media-body{
+    text-align: left;
+
+}
+
+.Creaciones{
+    padding-top: 3em;
+    padding-bottom: 3em;   
+    
+}
+
+
+.Creaciones h3{
+    text-align: center;    
+    margin-bottom: 1em;
+}
+
+.Creaciones .container .card-deck{
+    margin-bottom: 2em;
+}
+
+.Contactos{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center;
+    background-color: rgb(226, 170, 188);
+}
+
+
+
+
+.footer .container .redes{
+    display: flex;
+    height: 6vh;
+    
+}
+
+.footer .container .redes p{
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer .container .redes a{
+    margin-left: 1em;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 150%;
+
+}
