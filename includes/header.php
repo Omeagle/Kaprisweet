@@ -30,7 +30,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active" >
-                <a class="nav-link" href="/">Inicio </a>
+                <a class="nav-link" href="Index.php">Inicio </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Nosotros</a>
@@ -40,7 +40,7 @@
                 <a class="nav-link" href="#">Productos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contáctenos</a>
+                <a class="nav-link" href="contactos.php">Contáctenos</a>
             </li>
           </ul>
         </div>
