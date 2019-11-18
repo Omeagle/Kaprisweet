@@ -80,9 +80,6 @@
     background-color: rgb(226, 170, 188);
 }
 
-
-
-
 .footer .container .redes{
     display: flex;
     height: 6vh;
@@ -100,5 +97,14 @@
     margin-top: auto;
     margin-bottom: auto;
     font-size: 150%;
+
+}
+
+
+/* Estilo de Contactos */
+
+.banner_contact img{
+    height: 40vh;
+    width: 100%;
 
 }
