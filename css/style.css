@@ -80,6 +80,10 @@
     background-color: rgb(226, 170, 188);
 }
 
+.Contactos .container h2{
+    margin-bottom: 1em;
+}
+
 .footer .container .redes{
     display: flex;
     height: 6vh;
@@ -103,8 +107,58 @@
 
 /* Estilo de Contactos */
 
-.banner_contact img{
+
+.banner_contact {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.banner_contact img{       
     height: 40vh;
     width: 100%;
-
 }
+
+.banner_contact h2{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+
+.container-content{
+    background:rgb(240, 255, 255,0.5);
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center;
+}
+
+.container-content p{    
+    padding-bottom: 2em;
+   
+}
+
+
+.container-content .container{    
+    display: flex;    
+   
+    
+}
+
+.container-content .container .formularios1{    
+    width: 50%;
+    
+}
+
+.container-content .container .formularios2{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+

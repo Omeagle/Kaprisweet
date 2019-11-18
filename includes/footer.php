@@ -8,7 +8,7 @@
                 <a href="https://facebook.com/"><i class="fab fa-facebook-square"></i></a>
                 <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>   
                 <a href="https://www.youtube.com"><i class="fab fa-youtube-square"></i></a>
-                <a href=""><i class="fab fa-discord"></i></a>                
+                <a href="https://discordapp.com/"><i class="fab fa-discord"></i></a>                
             </section>              
         </div>
       </footer>

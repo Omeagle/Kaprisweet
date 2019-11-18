@@ -159,8 +159,8 @@ include("includes/carousel.php");
 
       <section class="Contactos">
         <div class="container">
-          <h2>¿Tienes alguna Duda?</h2>
-          <button type="button" class="btn btn-outline-light mt-4 ">Contactanos</button>
+          <h2>¿Tienes alguna duda? Ponte en contacto con nosotros</h2>          
+          <a href="contactos.php" class="btn btn-outline-dark btn-lg active" role="button" aria-pressed="true">Contactanos</a>
         </div>
       </section>
       
