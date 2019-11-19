@@ -20,6 +20,9 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 <!-- Seccion Separador -->
 <div class="separador2"></div>
 
+<div class="formularios2">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5972.2123762568135!2d-86.22336136717757!3d12.142092048240018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f73fdd735fea943%3A0x18a1f589c950c41c!2sRotonda%20La%20Virgen!5e0!3m2!1ses-419!2sni!4v1574052122208!5m2!1ses-419!2sni" width="100%" height="355" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div>
 
 
     
@@ -30,26 +33,25 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 
 
         <div class="formularios1">
-                            <form >
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">Nombre</label>
-                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">Correo Electronico</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                        </div>     
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Mensaje</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>                
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                            <form action="enviarcorreo.php" method="post" >
+                            <div class="form-group ">                                
+                                <input type="text" class="form-control col-md-8 m-md-auto " placeholder="Nombre" name="nombre">
+                            </div>                         
+                            <div class="form-group">
+                                <input type="email" class="form-control col-md-8 m-md-auto" placeholder="Correo Electronico" name="correo"> 
+                            </div>
+                                                    
+                            <div class="form-group">                            
+                                <input type="text" class="form-control col-md-8 m-md-auto" id="exampleFormControlInput1" placeholder="Asunto" name="asunto">
+                            </div>     
+                            <div class="form-group">                            
+                                <textarea class="form-control col-md-8 m-md-auto" id="exampleFormControlTextarea1"  placeholder="Mensaje" name="mensaje" rows="3"></textarea>                
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block col-md-8 m-md-auto">Enviar</button>
                         </form>
                 </div>
 
-                <div class="formularios2">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5972.2123762568135!2d-86.22336136717757!3d12.142092048240018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f73fdd735fea943%3A0x18a1f589c950c41c!2sRotonda%20La%20Virgen!5e0!3m2!1ses-419!2sni!4v1574052122208!5m2!1ses-419!2sni" width="500" height="355" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                </div>
+               
         </div>        
 
             
@@ -60,14 +62,14 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 
 
 
-
-
+<!--
 <div class="container content">
 <form action="" method="post" name="contact">
     <input type="text" class="text" name="name">
     <button>Save</button>
 </form>
 </div>
+-->
 
 <?php 
 include("includes/footer.php");
