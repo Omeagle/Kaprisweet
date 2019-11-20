@@ -13,7 +13,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 
 <section class="banner_contact">    
         <img src="img/bannercontact.jpg" alt="Banner">
-        <h2>Estamos encantados de atenderte</h2> 
+        <h3>Ponte en contacto con nosotros</h3> 
            
 </section>
 

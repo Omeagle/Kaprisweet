@@ -4,8 +4,8 @@ include("includes/header.php");
 ?>
 
 <section class="banner_contact">    
-        <img src="img/bannernosotros.jpg" alt="Banner">
-        <h2>Nuestra Historia</h2> 
+        <img src="img/bannernosotros.jpg" alt="Banner">        
+        <h3>Nuestra Historia</h3> 
            
 </section>
 

@@ -18,7 +18,7 @@
 </head>
 <body>
     <!-- Menu -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light ">
+    <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container">
         <a class="navbar-brand d-none d-lg-block" href="Index.php">
               <img src="img/Logotipo.png" width="200vh"   alt="logo">
