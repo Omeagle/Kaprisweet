@@ -71,6 +71,7 @@
 
 .Creaciones .container .card-deck{
     margin-bottom: 2em;
+    text-align: center;
 }
 
 .Contactos{
@@ -182,4 +183,28 @@
 .historia .container{
     padding-top: 1em;
     padding-bottom: 3em;  
+}
+
+.historia .container .media{
+   
+    padding-bottom: 3em;  
+}
+
+
+/* Estilo de Catalogo */
+.catalogo{
+    padding-top: 3em;
+    padding-bottom: 3em;   
+    
+}
+
+
+.catalogo h3{
+    text-align: center;    
+    margin-bottom: 1em;
+}
+
+.catalogo .container .card-deck{
+    margin-bottom: 6em;
+    text-align: center;
 }

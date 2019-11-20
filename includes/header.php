@@ -40,7 +40,7 @@
             </li>         
                       
             <li class="nav-item">
-                <a class="nav-link" href="#">Productos</a>
+                <a class="nav-link" href="catalogo.php">Catálogo</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="contactos.php">Contáctenos</a>
